@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#nav{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul , a{
+    display: flex;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding:10px 0 10px 40px;
+    padding-right: 0;
+}
+
+.begin{
+    display: flex;
+    margin: 40px 0;
+}
+
+.begin img{
+    width: 50%;
+}
+
+.begin > div {
+    padding-top: 60px;
+    
+}
+
+.begin > div >h1{
+    margin-bottom: 5px;
+    font-size: 33px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.begin > div >h1 + p{
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form input{
+    padding: 8px;
+    width: 60%;
+}
+
+form button{
+    padding: 10px;
+    width: 35%;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border: none;
+}
+
+#middle{
+    background: url(/images/bg-curve-desktop.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mid{
+    display: flex;
+    height: 580px;
+}
+
+.mid >div + img{
+    width: 60%;
+    height: 400px;
+    padding-top: 75px;
+}
+
+.mid > div >h2{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 33px;
+}
+
+.mid > div > h2 + p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 15px;
+}
+
+.mid > div > h2 + p + p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-right: 17px;
+}
+
+#middle .seehow{
+    display: flex;
+    padding-top: 17px;
+    text-decoration: underline;
+}
+
+#middle .seehow img{
+    display: flex;
+    height: 16px;
+    padding: 0 5px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+#middle .seehow a{
+    color: hsl(170, 45%, 43%);
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+
+.inner_div{
+    background-color: #fff;
+    height: 250px;
+    margin-right: 65px;
+    margin-top: 19px;
+    border-radius: 23px;
+}
+
+.inner_div >div {
+    width:80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.inner_div >div > img{
+    width: 5.5%;
+    padding-bottom: 10px;
+}
+.inner_div > div > img + p{
+    padding-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 70px;
+}
+
+.inner_div .img_name{
+    display: flex;
+}
+.inner_div .img_name > img + p{
+    padding: 10px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inner_div .img_name > img{
+    border-radius: 70px;
+    width: 15%;
+}
+
+#last{
+    background-color: hsl(238, 22%, 44%);
+    padding: 40px 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.get_early{
+    display: flex;
+}
+
+.get_early > div > h3{
+    font-size: 30px;
+}
+
+.get_early > div >h3 + p{
+    padding-right: 200px;
+    padding-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.get_early >div +div > input{
+   height: 35px;
+   padding-right: 150px;
+   padding-left: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.get_early  button{
+    margin: 6px 0;
+    padding: 10px 0;
+    width: 45%;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo{
+    background-color: hsl(243, 87%, 12%);
+    height: 100px;
+    padding-top: 25px;
+}
+
+#me{
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 200px;
+}
+
+.below_image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.below_image > div >p img{
+    padding-right: 10px;
+}
+
+.below_image .icon i{
+    padding: 10px;
+    border: 2px #fff solid;
+    border-radius: 50px;
+}
+
+.theirs{
+    background-color: hsl(243, 87%, 12%);
+    padding-bottom: 10px;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.attribution a{
+    color: #fff;
+    padding: 0 0 0 9px;
+
+}
+
+@media screen and (max-width:375px)
+{
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+
+    #nav img{
+        width: 25%;
+        height: 30px;
+        padding-top: 7px;
+    }
+
+    #nav ul li a{
+    padding: 1px 0 0 10px;
+    }
+
+    .begin{
+        flex-direction: column-reverse;
+    }
+
+    .begin img{
+        width: 100%;
+        height: 250px; 
+    }
+
+    .begin > div > h1{
+        font-size: 27px;
+    }
+
+    .begin >div >h1 + p{
+        font-size: 22px;
+    }
+
+    .begin  input , .get{
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    #middle {
+        background-image: url(/images/bg-curve-mobile.svg);
+    }
+
+    .mid{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .mid > div + img{
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .mid >div > h2{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+
+    .mid >div >h2 +p +p + .seehow + .inner_div {
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+    .mid >div >h2 +p +p + .seehow + .inner_div >div{
+        width: 90%;
+        margin: auto;
+        padding-left: 10px;
+    }
+
+    .mid >div >h2 +p +p + .seehow + .inner_div >div>img+p+.img_name{
+        height:40px ;
+    }
+
+    .mid >div >h2 +p +p + .seehow + .inner_div >div>img+p+.img_name>img+p{
+        padding-top: 0px;
+    }
+
+    .get_early{
+        flex-direction: column;
+    }
+
+    .get_early >div > h3 +p{
+        padding-right:0 ;
+        padding-bottom: 18px;
+    }
+
+    .get_early >div +div >input{
+        width: 100%;
+    }
+
+    .get_early>div+div button{
+        width: 100%;
+    }
+
+    #me{
+        height: 430px;
+    }
+    
+    .below_image{
+        flex-direction: column;
+    }
+
+    .below_image >div{
+        padding: 0 0 20px 0;
+    }
+
+    .below_image .icon{
+        align-self: center;
+    }
+}
